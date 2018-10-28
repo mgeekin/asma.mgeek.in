@@ -26,6 +26,7 @@ url: "http://asma.mgeek.in" # the base hostname & protocol for your site, e.g. h
 markdown: kramdown
 # theme: minima
 theme: conference-mgeek.in-jekyll-theme
+remote_theme: mgeekin/conference-mgeek.in-jekyll-theme
 plugins:
   - jekyll-feed
 
