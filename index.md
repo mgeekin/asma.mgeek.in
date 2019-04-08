@@ -11,4 +11,4 @@ order: 0
 <div class="row p4">
 
 Place to learn musical instruments, piano, guitar, violin, sheetmusic. 
-<div>
+</div>
