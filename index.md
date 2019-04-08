@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
+topmenu: true
+order: 0
 ---
 
 <div class="row p4">

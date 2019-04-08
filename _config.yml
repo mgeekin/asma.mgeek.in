@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Archana School of Music and Arts
-email: asma@mgeek.in
+email: prateekrajgautam.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Place to learn musical instruments, piano, guitar, violin, sheetmusic. 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -41,3 +41,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+permalink: /:path/:title/
+topmenu: [true]
+submenu: [Classes]
+assets: https://raw.githubusercontent.com/mgeekin/asma/master/assets/
+themeassets: https://raw.githubusercontent.com/mgeekin/asma/master/assets/

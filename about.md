@@ -1,7 +1,8 @@
 ---
 layout: blank
 title: About
-permalink: /about/
+topmenu: true
+order: 2
 ---
 
 

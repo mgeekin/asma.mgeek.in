@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Sitemap
-permanent: /sitemap/
+topmenu: false
+order: 10
 ---
 
 ## Posts  
