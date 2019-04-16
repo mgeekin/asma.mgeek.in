@@ -6,5 +6,8 @@ layout: page
 topmenu: true
 order: 6
 ---
+Sorry, but we are not running regular classes. 
+But you may join us at [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts)
 
-Please do not try to contact unless admissions reopen.
+
+PM at [prateekrajgautam](https://t.me/prateekrajgautam)
