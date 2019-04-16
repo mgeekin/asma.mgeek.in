@@ -3,6 +3,7 @@ layout: post
 title:  "Admission-Closed"
 date:   2018-10-27 10:59:47 +0530
 categories: Notice
+comments: true
 ---
 
 # Admission Closed
