@@ -11,4 +11,4 @@ Sorry, but we are not running regular classes.
 But you may join us at [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts) for updates.
 
 
-PM at [prateekrajgautam](https://t.me/prateekrajgautam)
+PM at [prateekrajgautam](https://t.me/prateekrajgautam)  
