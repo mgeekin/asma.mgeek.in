@@ -22,6 +22,7 @@ We also teach Western Music Theory and How to read
 * Seduce Total Strangers 
 * Feel Serious Pleasure
 * It's a stress reliever.
+  
 ---
 ## Piano  
 
