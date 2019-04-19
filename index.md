@@ -8,7 +8,7 @@ topmenu: true
 order: 0
 ---
 
-<div class="row p4">
+
 
 ---
 We offer Instrumental Music classes for most loved instruments like Guitar, Piano, Casio, Violin, Mouthorgan.   
