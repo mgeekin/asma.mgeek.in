@@ -7,8 +7,8 @@ topmenu: true
 order: 6
 comments: true
 ---
-Sorry, but we are not running regular classes. 
-But you may join us at [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts) for updates.
+*Mob**: **7376 558 022**  
+> Join our telegram channel for updates [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts) for updates.
 
 
-PM at [prateekrajgautam](https://t.me/prateekrajgautam)  
+Direct Message at [prateekrajgautam](https://t.me/prateekrajgautam)  
