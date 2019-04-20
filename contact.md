@@ -7,8 +7,8 @@ topmenu: true
 order: 6
 comments: true
 ---
-*Mob**: **7376 558 022**  
-> Join our telegram channel for updates [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts) for updates.
+*Whatsapp*: **7376 558 022**  
 
+*Telegram* Direct Message at [prateekrajgautam](https://t.me/prateekrajgautam)  
 
-Direct Message at [prateekrajgautam](https://t.me/prateekrajgautam)  
+> Join our telegram channel for updates [t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmusicandarts) for updates. 
