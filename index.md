@@ -12,11 +12,11 @@ order: 0
 
 ---
 We offer Instrumental Music classes for most loved instruments like Guitar, Piano, Casio, Violin, Mouthorgan.   
-We also teach Western Music Theory and How to read 
+We also teach Western Music Theory and How to read  Sheet Music. 
 
 ---
 ## Guitar  
-  *  Sheet Music. 
+
 * Sharpen Your Mind 
 * Wave Away Stress 
 * Seduce Total Strangers 
@@ -41,6 +41,7 @@ We also teach Western Music Theory and How to read
 * Higher standards for yourself  
 * Increased feelings of accomplishment  
 
+---
 
 ## Harmonica/Mouth-Organ
 * Strengthen Lungs
@@ -48,6 +49,7 @@ We also teach Western Music Theory and How to read
 * Helps mind & breath control and coordination
 * Music Benefits Our Health
 
+---
 
 ## Sheet music
 * Improves visual & verbal skills.
@@ -59,6 +61,7 @@ We also teach Western Music Theory and How to read
 * Reduces Depression & Anxiety.
 
 
+---
 
 > ***Playing musical Instrument is associated with 
  Intelligence, 
@@ -72,9 +75,11 @@ We also teach Western Music Theory and How to read
 #### & Witness other Benefits yourself.
 
 
-*Address* **E 540/9 Avas Vikas 1, Kalyanpur, Kanpur, UP-208017, India**
+*Address* **E 540/9 Avas Vikas 1, Kalyanpur, Kanpur, UP-208017, India** 
 
-*Contact* **+91-7376 558 022**
+*Whatsapp*: **7376 558 022** 
+
+---
 
 *Timing*
 
