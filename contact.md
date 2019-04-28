@@ -9,7 +9,7 @@ comments: true
 ---
 ### Direct Message
 
-*Whatsapp*: **7376 558 022**  
+*Whatsapp*: **7376 558 022**  ***(Please confirm availability before your visit)***
 
 *Telegram* [t.me/prateekrajgautam](https://t.me/prateekrajgautam)  
 

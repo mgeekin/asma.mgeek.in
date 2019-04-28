@@ -77,7 +77,7 @@ We also teach Western Music Theory and How to read  Sheet Music.
 
 *Address* **E 540/9 Avas Vikas 1, Kalyanpur, Kanpur, UP-208017, India** 
 
-*Whatsapp*: **7376 558 022** 
+*Whatsapp*: **7376 558 022** ***(Please confirm availability before your visit)***
 
 ---
 
