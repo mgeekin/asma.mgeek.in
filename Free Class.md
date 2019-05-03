@@ -23,7 +23,7 @@ telegram at ***[t.me/archanaschoolofmusicandarts](https://t.me/archanaschoolofmu
 > Email (optional):
 
 
-Or fill this <button class="btn btn-primary" href="https://forms.gle/LXguUro9A8jivTZP7"> Registration form</button>
+Or fill this <a href="https://forms.gle/LXguUro9A8jivTZP7"><button class="btn btn-primary" > Registration form</button></a>
 
 #### List of Selected candidates 
 
