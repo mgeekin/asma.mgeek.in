@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html data-lt-installed="true" lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="index_files/bootstrap.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index_files/style.css">
+    <title>Home</title>
+    <style type="text/css">
+        .MathJax_Hover_Frame {
+            border-radius: .25em;
+            -webkit-border-radius: .25em;
+            -moz-border-radius: .25em;
+            -khtml-border-radius: .25em;
+            box-shadow: 0px 0px 15px #83A;
+            -webkit-box-shadow: 0px 0px 15px #83A;
+            -moz-box-shadow: 0px 0px 15px #83A;
+            -khtml-box-shadow: 0px 0px 15px #83A;
+            border: 1px solid #A6D ! important;
+            display: inline-block;
+            position: absolute
+        }
+
+        .MathJax_Menu_Button .MathJax_Hover_Arrow {
+            position: absolute;
+            cursor: pointer;
+            display: inline-block;
+            border: 2px solid #AAA;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -khtml-border-radius: 4px;
+            font-family: 'Courier New', Courier;
+            font-size: 9px;
+            color: #F0F0F0
+        }
+
+        .MathJax_Menu_Button .MathJax_Hover_Arrow span {
+            display: block;
+            background-color: #AAA;
+            border: 1px solid;
+            border-radius: 3px;
+            line-height: 0;
+            padding: 4px
+        }
+
+        .MathJax_Hover_Arrow:hover {
+            color: white !important;
+            border: 2px solid #CCC !important
+        }
+
+        .MathJax_Hover_Arrow:hover span {
+            background-color: #CCC !important
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_About {
+            position: fixed;
+            left: 50%;
+            width: auto;
+            text-align: center;
+            border: 3px outset;
+            padding: 1em 2em;
+            background-color: #DDDDDD;
+            color: black;
+            cursor: default;
+            font-family: message-box;
+            font-size: 120%;
+            font-style: normal;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -khtml-border-radius: 15px;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        #MathJax_About.MathJax_MousePost {
+            outline: none
+        }
+
+        .MathJax_Menu {
+            position: absolute;
+            background-color: white;
+            color: black;
+            width: auto;
+            padding: 5px 0px;
+            border: 1px solid #CCCCCC;
+            margin: 0;
+            cursor: default;
+            font: menu;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        .MathJax_MenuItem {
+            padding: 1px 2em;
+            background: transparent
+        }
+
+        .MathJax_MenuArrow {
+            position: absolute;
+            right: .5em;
+            padding-top: .25em;
+            color: #666666;
+            font-size: .75em
+        }
+
+        .MathJax_MenuActive .MathJax_MenuArrow {
+            color: white
+        }
+
+        .MathJax_MenuArrow.RTL {
+            left: .5em;
+            right: auto
+        }
+
+        .MathJax_MenuCheck {
+            position: absolute;
+            left: .7em
+        }
+
+        .MathJax_MenuCheck.RTL {
+            right: .7em;
+            left: auto
+        }
+
+        .MathJax_MenuRadioCheck {
+            position: absolute;
+            left: .7em
+        }
+
+        .MathJax_MenuRadioCheck.RTL {
+            right: .7em;
+            left: auto
+        }
+
+        .MathJax_MenuLabel {
+            padding: 1px 2em 3px 1.33em;
+            font-style: italic
+        }
+
+        .MathJax_MenuRule {
+            border-top: 1px solid #DDDDDD;
+            margin: 4px 3px
+        }
+
+        .MathJax_MenuDisabled {
+            color: GrayText
+        }
+
+        .MathJax_MenuActive {
+            background-color: #606872;
+            color: white
+        }
+
+        .MathJax_MenuDisabled:focus,
+        .MathJax_MenuLabel:focus {
+            background-color: #E8E8E8
+        }
+
+        .MathJax_ContextMenu:focus {
+            outline: none
+        }
+
+        .MathJax_ContextMenu .MathJax_MenuItem:focus {
+            outline: none
+        }
+
+        #MathJax_AboutClose {
+            top: .2em;
+            right: .2em
+        }
+
+        .MathJax_Menu .MathJax_MenuClose {
+            top: -10px;
+            left: -10px
+        }
+
+        .MathJax_MenuClose {
+            position: absolute;
+            cursor: pointer;
+            display: inline-block;
+            border: 2px solid #AAA;
+            border-radius: 18px;
+            -webkit-border-radius: 18px;
+            -moz-border-radius: 18px;
+            -khtml-border-radius: 18px;
+            font-family: 'Courier New', Courier;
+            font-size: 24px;
+            color: #F0F0F0
+        }
+
+        .MathJax_MenuClose span {
+            display: block;
+            background-color: #AAA;
+            border: 1.5px solid;
+            border-radius: 18px;
+            -webkit-border-radius: 18px;
+            -moz-border-radius: 18px;
+            -khtml-border-radius: 18px;
+            line-height: 0;
+            padding: 8px 0 6px
+        }
+
+        .MathJax_MenuClose:hover {
+            color: white !important;
+            border: 2px solid #CCC !important
+        }
+
+        .MathJax_MenuClose:hover span {
+            background-color: #CCC !important
+        }
+
+        .MathJax_MenuClose:hover:focus {
+            outline: none
+        }
+    </style>
+    <style type="text/css">
+        .MathJax_Preview .MJXf-math {
+            color: inherit !important
+        }
+    </style>
+    <style type="text/css">
+        .MJX_Assistive_MathML {
+            position: absolute !important;
+            top: 0;
+            left: 0;
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 1px 0 0 0 !important;
+            border: 0 !important;
+            height: 1px !important;
+            width: 1px !important;
+            overflow: hidden !important;
+            display: block !important;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .MJX_Assistive_MathML.MJX_Assistive_MathML_Block {
+            width: 100% !important
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_Zoom {
+            position: absolute;
+            background-color: #F0F0F0;
+            overflow: auto;
+            display: block;
+            z-index: 301;
+            padding: .5em;
+            border: 1px solid black;
+            margin: 0;
+            font-weight: normal;
+            font-style: normal;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            box-shadow: 5px 5px 15px #AAAAAA;
+            -webkit-box-shadow: 5px 5px 15px #AAAAAA;
+            -moz-box-shadow: 5px 5px 15px #AAAAAA;
+            -khtml-box-shadow: 5px 5px 15px #AAAAAA;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        #MathJax_ZoomOverlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 300;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+
+        #MathJax_ZoomFrame {
+            position: relative;
+            display: inline-block;
+            height: 0;
+            width: 0
+        }
+
+        #MathJax_ZoomEventTrap {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 302;
+            display: inline-block;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+    </style>
+    <style type="text/css">
+        .MathJax_Preview {
+            color: #888
+        }
+
+        #MathJax_Message {
+            position: fixed;
+            left: 1px;
+            bottom: 2px;
+            background-color: #E6E6E6;
+            border: 1px solid #959595;
+            margin: 0px;
+            padding: 2px 8px;
+            z-index: 102;
+            color: black;
+            font-size: 80%;
+            width: auto;
+            white-space: nowrap
+        }
+
+        #MathJax_MSIE_Frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0px;
+            z-index: 101;
+            border: 0px;
+            margin: 0px;
+            padding: 0px
+        }
+
+        .MathJax_Error {
+            color: #CC0000;
+            font-style: italic
+        }
+    </style>
+    <style type="text/css">
+        .MJXp-script {
+            font-size: .8em
+        }
+
+        .MJXp-right {
+            -webkit-transform-origin: right;
+            -moz-transform-origin: right;
+            -ms-transform-origin: right;
+            -o-transform-origin: right;
+            transform-origin: right
+        }
+
+        .MJXp-bold {
+            font-weight: bold
+        }
+
+        .MJXp-italic {
+            font-style: italic
+        }
+
+        .MJXp-scr {
+            font-family: MathJax_Script, 'Times New Roman', Times, STIXGeneral, serif
+        }
+
+        .MJXp-frak {
+            font-family: MathJax_Fraktur, 'Times New Roman', Times, STIXGeneral, serif
+        }
+
+        .MJXp-sf {
+            font-family: MathJax_SansSerif, 'Times New Roman', Times, STIXGeneral, serif
+        }
+
+        .MJXp-cal {
+            font-family: MathJax_Caligraphic, 'Times New Roman', Times, STIXGeneral, serif
+        }
+
+        .MJXp-mono {
+            font-family: MathJax_Typewriter, 'Times New Roman', Times, STIXGeneral, serif
+        }
+
+        .MJXp-largeop {
+            font-size: 150%
+        }
+
+        .MJXp-largeop.MJXp-int {
+            vertical-align: -.2em
+        }
+
+        .MJXp-math {
+            display: inline-block;
+            line-height: 1.2;
+            text-indent: 0;
+            font-family: 'Times New Roman', Times, STIXGeneral, serif;
+            white-space: nowrap;
+            border-collapse: collapse
+        }
+
+        .MJXp-display {
+            display: block;
+            text-align: center;
+            margin: 1em 0
+        }
+
+        .MJXp-math span {
+            display: inline-block
+        }
+
+        .MJXp-box {
+            display: block !important;
+            text-align: center
+        }
+
+        .MJXp-box:after {
+            content: " "
+        }
+
+        .MJXp-rule {
+            display: block !important;
+            margin-top: .1em
+        }
+
+        .MJXp-char {
+            display: block !important
+        }
+
+        .MJXp-mo {
+            margin: 0 .15em
+        }
+
+        .MJXp-mfrac {
+            margin: 0 .125em;
+            vertical-align: .25em
+        }
+
+        .MJXp-denom {
+            display: inline-table !important;
+            width: 100%
+        }
+
+        .MJXp-denom>* {
+            display: table-row !important
+        }
+
+        .MJXp-surd {
+            vertical-align: top
+        }
+
+        .MJXp-surd>* {
+            display: block !important
+        }
+
+        .MJXp-script-box>* {
+            display: table !important;
+            height: 50%
+        }
+
+        .MJXp-script-box>*>* {
+            display: table-cell !important;
+            vertical-align: top
+        }
+
+        .MJXp-script-box>*:last-child>* {
+            vertical-align: bottom
+        }
+
+        .MJXp-script-box>*>*>* {
+            display: block !important
+        }
+
+        .MJXp-mphantom {
+            visibility: hidden
+        }
+
+        .MJXp-munderover {
+            display: inline-table !important
+        }
+
+        .MJXp-over {
+            display: inline-block !important;
+            text-align: center
+        }
+
+        .MJXp-over>* {
+            display: block !important
+        }
+
+        .MJXp-munderover>* {
+            display: table-row !important
+        }
+
+        .MJXp-mtable {
+            vertical-align: .25em;
+            margin: 0 .125em
+        }
+
+        .MJXp-mtable>* {
+            display: inline-table !important;
+            vertical-align: middle
+        }
+
+        .MJXp-mtr {
+            display: table-row !important
+        }
+
+        .MJXp-mtd {
+            display: table-cell !important;
+            text-align: center;
+            padding: .5em 0 0 .5em
+        }
+
+        .MJXp-mtr>.MJXp-mtd:first-child {
+            padding-left: 0
+        }
+
+        .MJXp-mtr:first-child>.MJXp-mtd {
+            padding-top: 0
+        }
+
+        .MJXp-mlabeledtr {
+            display: table-row !important
+        }
+
+        .MJXp-mlabeledtr>.MJXp-mtd:first-child {
+            padding-left: 0
+        }
+
+        .MJXp-mlabeledtr:first-child>.MJXp-mtd {
+            padding-top: 0
+        }
+
+        .MJXp-merror {
+            background-color: #FFFF88;
+            color: #CC0000;
+            border: 1px solid #CC0000;
+            padding: 1px 3px;
+            font-style: normal;
+            font-size: 90%
+        }
+
+        .MJXp-scale0 {
+            -webkit-transform: scaleX(.0);
+            -moz-transform: scaleX(.0);
+            -ms-transform: scaleX(.0);
+            -o-transform: scaleX(.0);
+            transform: scaleX(.0)
+        }
+
+        .MJXp-scale1 {
+            -webkit-transform: scaleX(.1);
+            -moz-transform: scaleX(.1);
+            -ms-transform: scaleX(.1);
+            -o-transform: scaleX(.1);
+            transform: scaleX(.1)
+        }
+
+        .MJXp-scale2 {
+            -webkit-transform: scaleX(.2);
+            -moz-transform: scaleX(.2);
+            -ms-transform: scaleX(.2);
+            -o-transform: scaleX(.2);
+            transform: scaleX(.2)
+        }
+
+        .MJXp-scale3 {
+            -webkit-transform: scaleX(.3);
+            -moz-transform: scaleX(.3);
+            -ms-transform: scaleX(.3);
+            -o-transform: scaleX(.3);
+            transform: scaleX(.3)
+        }
+
+        .MJXp-scale4 {
+            -webkit-transform: scaleX(.4);
+            -moz-transform: scaleX(.4);
+            -ms-transform: scaleX(.4);
+            -o-transform: scaleX(.4);
+            transform: scaleX(.4)
+        }
+
+        .MJXp-scale5 {
+            -webkit-transform: scaleX(.5);
+            -moz-transform: scaleX(.5);
+            -ms-transform: scaleX(.5);
+            -o-transform: scaleX(.5);
+            transform: scaleX(.5)
+        }
+
+        .MJXp-scale6 {
+            -webkit-transform: scaleX(.6);
+            -moz-transform: scaleX(.6);
+            -ms-transform: scaleX(.6);
+            -o-transform: scaleX(.6);
+            transform: scaleX(.6)
+        }
+
+        .MJXp-scale7 {
+            -webkit-transform: scaleX(.7);
+            -moz-transform: scaleX(.7);
+            -ms-transform: scaleX(.7);
+            -o-transform: scaleX(.7);
+            transform: scaleX(.7)
+        }
+
+        .MJXp-scale8 {
+            -webkit-transform: scaleX(.8);
+            -moz-transform: scaleX(.8);
+            -ms-transform: scaleX(.8);
+            -o-transform: scaleX(.8);
+            transform: scaleX(.8)
+        }
+
+        .MJXp-scale9 {
+            -webkit-transform: scaleX(.9);
+            -moz-transform: scaleX(.9);
+            -ms-transform: scaleX(.9);
+            -o-transform: scaleX(.9);
+            transform: scaleX(.9)
+        }
+
+        .MathJax_PHTML .noError {
+            vertical-align: ;
+            font-size: 90%;
+            text-align: left;
+            color: black;
+            padding: 1px 3px;
+            border: 1px solid
+        }
+    </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="8.892.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <div id="MathJax_Message" style="display: none;"></div>
+
+
+    <div class="row">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+                <div class="col-3">
+                    <a class="navbar-brand" href="http://asma.mgeek.in/">
+                        <img src="index_files/logo.png" alt="Archana School of Music and Arts"
+                            title="Archana School of Music and Arts" height="60px">
+                    </a>
+                </div>
+
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="col-9 ">
+                    <div class="navbar-collapse float-lg-right collapse" id="navbarSupportedContent" style="">
+
+
+
+                        <ul class="navbar-nav ">
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/" class="nav-link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/Free%20Class/" class="nav-link">
+                                    Free Class
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/about/" class="nav-link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/Fee/" class="nav-link">
+                                    Fee Structure
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/Timing/" class="nav-link">
+                                    Timing Schedule
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/Notice/" class="nav-link">
+                                    Notice
+                                </a>
+                            </li>
+
+                            <li class="nav-item pull-right">
+                                <a href="http://asma.mgeek.in/contact/" class="nav-link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </nav>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-lg-12 col-sm-12 col-md-12 p0 text-center">
+            <img class="img img-fluid text-center" src="index_files/headerimage.png" alt="">
+        </div>
+    </div>
+    <div id="landingdefault" class="container" markdown="1">
+        <hr>
+        <p>We offer Instrumental Music classes for most loved instruments like Guitar, Piano, Casio, Violin, Mouthorgan.
+            <br>
+            We also teach Western Music Theory and How to read Sheet Music.
+        </p>
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/videoseries?list=PLNfTuuRPPhJMILj7635JvdKKyGBDgQZx0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <hr>
+        <h2 id="guitar">Guitar</h2>
+
+        <ul>
+            <li>Sharpen Your Mind</li>
+            <li>Wave Away Stress</li>
+            <li>Seduce Total Strangers</li>
+            <li>Feel Serious Pleasure</li>
+            <li>It’s a stress reliever.</li>
+        </ul>
+
+        <hr>
+        <h2 id="piano">Piano</h2>
+
+        <ul>
+            <li>Playing the piano can increase cognitive development.</li>
+            <li>Split concentration</li>
+            <li>Inspires creativity</li>
+            <li>Foster hand/eye coordination</li>
+            <li>Better coordination and motor skills</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="violin">Violin</h2>
+        <ul>
+            <li>Improved finger dexterity</li>
+            <li>Greater perseverance</li>
+            <li>Higher standards for yourself</li>
+            <li>Increased feelings of accomplishment</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="harmonicamouth-organ">Harmonica/Mouth-Organ</h2>
+        <ul>
+            <li>Strengthen Lungs</li>
+            <li>It has a Meditative Effect on Brain.</li>
+            <li>Helps mind &amp; breath control and coordination</li>
+            <li>Music Benefits Our Health</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="sheet-music">Sheet music</h2>
+        <ul>
+            <li>Improves visual &amp; verbal skills.</li>
+            <li>Keeps an aging brain healthy.</li>
+            <li>Music Makes You Happier.</li>
+            <li>Heartbeat, Pulse Rate &amp; Blood Pressure.</li>
+            <li>Improves Sleep Quality.</li>
+            <li>Boosts Your Immune System &amp; Reduces Pain.</li>
+            <li>Reduces Depression &amp; Anxiety.</li>
+        </ul>
+
+        <hr>
+
+        <blockquote>
+            <p><strong><em>Playing musical Instrument is associated with
+                        Intelligence,
+                        Commitment,
+                        Hard work,
+                        Perseverance, &amp;
+                        Physical prowess.</em></strong></p>
+        </blockquote>
+
+        <hr>
+        <h3 id="come-join-us">Come Join Us</h3>
+        <h4 id="-witness-other-benefits-yourself">&amp; Witness other Benefits yourself.</h4>
+
+        <p><em>Address</em> <strong>E 540/9 Avas Vikas 1, Kalyanpur, Kanpur, UP-208017, India</strong></p>
+
+        <p><em>Whatsapp</em>: <strong>7376 558 022</strong> <strong><em>(Please confirm availability before your
+                    visit)</em></strong></p>
+
+        <hr>
+
+        <p><em>Timing</em></p>
+
+        <p>Evening Class on <strong>Monday, Wednesday</strong> and <strong>Friday</strong></p>
+        <blockquote>
+            <p><strong>05.00PM-06.00PM</strong></p>
+        </blockquote>
+
+        <p>Morning Class on Sunday</p>
+        <blockquote>
+            <p><strong>10.00AM-11.00AM</strong></p>
+        </blockquote>
+
+
+
+
+        <hr>
+
+        <h2>Notices &amp; Updates</h2>
+        <ul class="list-group">
+
+
+            <li class="list-group">
+                <h3><a
+                        href="http://asma.mgeek.in/2019-04-12-Starting-free-class-for-beginners/Starting-free-class-for-beginners/">Starting
+                        free class for beginners</a></h3>
+            </li>
+            <br>
+
+
+
+            <li class="list-group">
+                <h3><a
+                        href="http://asma.mgeek.in/2018-11-29-We-are-looking-for-Music-Teacher/We-are-looking-for-Music-Teacher/">We
+                        are looking for Music Teacher</a></h3>
+            </li>
+            <br>
+
+
+
+            <li class="list-group">
+                <h3><a href="http://asma.mgeek.in/2018-10-27-Admission-Closed/Admission-Closed/">Admission-Closed</a>
+                </h3>
+            </li>
+            <br>
+
+
+        </ul>
+
+    </div>
+    <div class="row">
+        <div class="container">
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div style="background-color:#222222;color:white;padding:20px;margin:0px">
+        <div class="container">
+            <div class="row">
+                <div class="float-right">
+                    <p class="float-right">
+                        <a href="http://mgeek.in/">
+                            © 2022 mGeek.in
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- mathjax JavaScript -->
+    <script src="index_files/MathJax.js" id=""></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="index_files/jquery-3.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="index_files/popper.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="index_files/bootstrap.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
