@@ -15,6 +15,10 @@ We also teach Western Music Theory and How to read  Sheet Music.
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNfTuuRPPhJMILj7635JvdKKyGBDgQZx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ## Guitar
 
 * Sharpen Your Mind 
