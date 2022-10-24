@@ -183,6 +183,12 @@ video {
 }
 
 .maincontainer {
+  padding-left: 0%;
+  padding-right: 0%;
+  margin: 0;
+}
+
+.container {
   padding-left: 10%;
   padding-right: 10%;
   margin: 0;

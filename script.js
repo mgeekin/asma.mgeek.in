@@ -36,7 +36,7 @@ for (i = 0; i < og.length; i++) {
     document.getElementById(`${metaid}`).property = `og:${og[i][0]}`;
     document.getElementById(`${metaid}`).content = `${og[i][1]}`;
 }
-main.append(gen("div", "hero", gen("h1", "", "Archana School of Music and Arts"), "section"))
+main.append(gen("div", "hero", gen("h1", "", "Archana School of Music and Arts"), "section container"))
 
 hero.append(gen(p, '', 'We offer Instrumental Music classes for most loved instruments like <b>Guitar, Piano, Casio, Violin, Mouthorgan</b>.<br />\
 We also teach Western Music Theory and How to read Sheet Music.<hr /> <br />Playing musical Instrument is associated with <b>Intelligence, Commitment, Hard work, Perseverance, & Physical prowess</b>.'))
@@ -68,7 +68,7 @@ YTButton.addEventListener('click', () => {
 
 
 // //screenshot
-// main.append(gen("div", "screenshots", gen("h2", "", "Screenshots"), "section"))
+// main.append(gen("div", "screenshots", gen("h2", "", "Screenshots"), "section container"))
 // //GIF
 
 
@@ -96,7 +96,7 @@ YTButton.addEventListener('click', () => {
 // //addButton("TEMP", main);
 
 // //download
-// main.append(gen("div", "download", "", "section"));
+// main.append(gen("div", "download", "", "section container"));
 // download.append(gen("h2", "", "Download and Run"));
 // download.append(gen("a", "dlbtnWIN", "Download (Windows)", "button"));
 // dlbtnWIN.href = releaseUrlWIN;
@@ -179,7 +179,7 @@ YTButton.addEventListener('click', () => {
 
 
 //youtube
-main.append(gen(div, "YoutubeChannel"))
+main.append(gen(div, "YoutubeChannel", "", "section container"))
 YoutubeChannel.append(gen("div", "yt", gen("h1", "", "Youtube Channel")))
 yt.append(gen("ytcode", "ytcode"));
 
@@ -188,7 +188,7 @@ ytcode.innerHTML = youtubePlaylistCode;
 //yt.append(gen("ytcode", "ytcomment"));
 //ytcomment.innerHTML = youtubeComments;
 
-/* main.append(gen("div", "telegrampoll", gen("h2", "", "Feedback"), "section"))
+/* main.append(gen("div", "telegrampoll", gen("h2", "", "Feedback"), "section container"))
 telegrampoll.append(gen("p", "poll", TPoll));
  */
 
@@ -196,7 +196,7 @@ telegrampoll.append(gen("p", "poll", TPoll));
 
 
 // //feedback
-// main.append(gen("div", "feedback", "", "section"));
+// main.append(gen("div", "feedback", "", "section container"));
 // feedback.append(gen("h2", "", "Feedback and Report Issue"));
 // feedback.append(gen("p", '', "Plese send Feedback on Youtube and Issue on Github"));
 // feedback.append(gen("a", "ytComment", "Feedback", "button"));
@@ -271,7 +271,7 @@ sections = [{
 
 
 for (i = 0; i < sections.length; i++) {
-    main.append(gen(div, `section${sections[i].heading}`, gen(h1, "", sections[i].heading), 'section-small'))
+    main.append(gen(div, `section${sections[i].heading}`, gen(h1, "", sections[i].heading), 'section-small container'))
     let elem = document.getElementById(`section${sections[i].heading}`)
     // console.log(sections[i].list)
     elem.append(gen(ul, `ul${sections[i].heading}`))
@@ -279,10 +279,10 @@ for (i = 0; i < sections.length; i++) {
 }
 
 
-main.append(gen(div, 'Fee', gen(h1, '', "Fee Structure"), "section"))
+main.append(gen(div, 'Fee', gen(h1, '', "Fee Structure"), "section container"))
 Fee.append(gen(div, "", ""))
 
-main.append(gen(div, 'timing', gen(h1, '', "Timing"), 'section'))
+main.append(gen(div, 'timing', gen(h1, '', "Timing"), 'section container'))
 timing.append(gen(div, "",
     "Evening Class on Monday, Wednesday and Friday\
     <br />05.00PM-06.00PM\

@@ -1,1 +1,0 @@
-window.location = "https://webmaster.mgeek.in"
